@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+
+<body>
+    <h1>Customer Experience Survey</h1>
+    <form>
+        <label for="Store number">Store number</label>
+        <select id="Store number">
+            <option>3109</option>
+            <option>2421</option>
+            <option>5357</option>
+
+        </select>
+        <fieldset>
+            <legend>when you visited</legend>
+            <input type="date" min="2020-1-1">
+            <input type="time">
+        </fieldset>
+        <label>
+            First Name
+            <input type="text">
+            last Name
+            <input type="text">
+        </label>
+        <br>
+        <label>
+            Email
+            <input type="email">
+            Password
+            <input type="password" pattern=".{5,10}" title="Please insert a password that is 5 to 10 characters in length">
+        </label>
+        <br>
+        <label for="Gender">Male</label>
+        <input type="radio" name="Male" id="Male">
+        <label for="Gender">female</label>
+        <input type="radio" name="female" id="female" checked="Checked">
+        <label for="Gender">Other</label>
+        <input type="Radio" name="Other" id="Other">
+        <br>
+        <label for="Experience">Tell us about your Experience</label>
+        <br>
+        <textarea name="Experience" id="Experience" cols="20" rows="2"></textarea>
+        <br>
+        <label for="visited">Times visited in last month</label>
+        <input type="Number" min="1" max="30">
+        <br>
+        <label for="Check">Please check box if you would be willing to be contacted about your Experience</label>
+        <input type="checkbox">
+        <br>
+        <input type="Reset">
+        <input type="Submit">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
